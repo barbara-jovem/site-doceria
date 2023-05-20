@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #f69eac;
+    color: #653321;
+}
+
+header h1{
+    font-size: 36px;
+}
+
+header,
+section h2,
+section h3,
+form button,
+.order-button{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea{
+    font-family: 'Playfair Display', serif;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a{
+    color: #653321;
+    text-decoration: none;
+}
+
+.container,
+.container-dois,{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, 
+section .container,
+.products-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+section .container-dois{
+    display: block;
+}
+
+article img{
+    height: 180px;
+}
+article p{
+    text-align: center;
+}
+
+.brand-list img{
+    height: 48px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.brand-list li{
+    display: inline;
+}
+
+section .container{ /*sobrescrever (cascata)*/
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #653321
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.cake-picture{
+    margin-right: 32px;
+    height: 400px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+input:focus, textarea:focus{
+    outline-color: #653321;
+}
+
+section h3{
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+.order-button{
+    background-color: #f69eac;
+    color: #653321;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 18px;
+    margin: 20 auto 0 auto;
+}
+
+.order-button:hover{
+        background-color: #fabcc6
+}
+
+form button{
+    background-color: #f69eac;
+    color: #653321;
+    border: none;
+    cursor: pointer
+}
+
+form button:hover{
+    background-color: #fabcc6;
+}
+
+footer{
+    background-color: #f69eac;
+    color: #653321;
+    height: 48px;
+    bottom: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
