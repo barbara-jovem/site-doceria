@@ -18,7 +18,7 @@ header,
 section h2,
 section h3,
 form button,
-.order-button{
+.container-dois button{
     font-family: 'Abril Fatface', cursive;
     font-weight: normal;
 }
@@ -142,7 +142,9 @@ section h3{
     margin-bottom: 16px;
 }
 
-.order-button{
+.container-dois button{
+    display: flex;
+    justify-content: center;
     background-color: #f69eac;
     color: #653321;
     border: none;
@@ -152,7 +154,7 @@ section h3{
     margin: 20 auto 0 auto;
 }
 
-.order-button:hover{
+.container-dois button:hover{
         background-color: #fabcc6
 }
 
