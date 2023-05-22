@@ -171,6 +171,10 @@ form button:hover{
     background-color: #fabcc6;
 }
 
+.adress{
+    margin-bottom:20px;
+}
+
 footer{
     background-color: #f69eac;
     color: #653321;
