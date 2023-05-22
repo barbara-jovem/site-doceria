@@ -39,8 +39,8 @@ header nav li a{
 }
 
 .container,
-.container-dois,{
-    max-width: 1280px;
+.container-dois{
+    max-width: 1240px;
     width: 100%;
     margin: 0 auto;
 }
@@ -143,7 +143,7 @@ section h3{
 }
 
 .container-dois button{
-    display: flex;
+    display: block;
     justify-content: center;
     background-color: #f69eac;
     color: #653321;
@@ -151,7 +151,9 @@ section h3{
     cursor: pointer;
     padding: 8px;
     font-size: 18px;
-    margin: 20 auto 0 auto;
+    margin: 20px auto 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .container-dois button:hover{
